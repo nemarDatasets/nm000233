@@ -1,0 +1,42 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Brain Products",
+	"PowerLineFrequency": 60.0,
+	"SamplingFrequency": 250.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "60 Hz notch filter, cue-aligned epoching, motor imagery window (6-10 s of each trial) extracted by loader"
+		}
+	},
+	"RecordingDuration": 659.996,
+	"RecordingType": "continuous",
+	"EEGReference": "FCz",
+	"EEGGround": "Fpz",
+	"EEGPlacementScheme": "10-05 system",
+	"EEGChannelCount": 60,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "BrainAmp (BrainProducts GmbH)",
+	"SoftwareVersions": "BrainVision with MATLAB 2019a",
+	"HardwareFilters": {
+		"Notch": {
+			"CutoffFrequency": [
+				60.0
+			]
+		}
+	},
+	"TaskDescription": "Three-session cue-based motor imagery of three grasping tasks on a single right arm (cylindrical, spherical, lumbrical). Each original trial is 10 s long (3 s rest, 3 s cue, 4 s motor imagery); this loader exposes only the 4 s motor imagery window. Sessions are 7 days apart to pose a session-to-session transfer problem. Trial duration: 4.0s, imagery: 4.0s.",
+	"Instructions": "n/a",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "Korea University",
+	"InstitutionAddress": "KR",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "BCI Competition 2020 Track 4: session-to-session motor imagery decoding of three grasping tasks (cylindrical, spherical, lumbrical) from a single right arm. 15 subjects, 60 channels, 250 Hz, three sessions on separate days.",
+	"MISCChannelCount": 0
+}

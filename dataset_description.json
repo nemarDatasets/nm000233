@@ -1,0 +1,46 @@
+{
+    "Name": "BCIComp2020UpperLimb",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Ji-Hoon Jeong",
+        "Jeong-Hyun Cho",
+        "Young-Eun Lee",
+        "Seo-Hyun Lee",
+        "Gi-Hwan Shin",
+        "Young-Seok Kweon",
+        "Jose del R. Millan",
+        "Klaus-Robert Muller",
+        "Seong-Whan Lee"
+    ],
+    "ReferencesAndLinks": [
+        "https://osf.io/pq7vb/",
+        "10.3389/fnhum.2022.898300"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "upper-limb",
+        "grasping",
+        "session-to-session transfer",
+        "BCI competition",
+        "EEG"
+    ],
+    "DatasetDOI": "doi:10.3389/fnhum.2022.898300",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.5.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.3389/fnhum.2022.898300",
+            "URL": "https://osf.io/pq7vb/"
+        }
+    ],
+    "PublicationYear": 2022
+}

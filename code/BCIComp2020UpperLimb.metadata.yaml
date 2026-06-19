@@ -1,0 +1,170 @@
+_dataset:
+  class: BCIComp2020UpperLimb
+  code: BCIComp2020UpperLimb
+  doi: 10.3389/fnhum.2022.898300
+  interval:
+  - 0
+  - 4.0
+  n_subjects: 15
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 60
+  filters:
+    notch_hz: 60
+  ground: Fpz
+  hardware: BrainAmp (BrainProducts GmbH)
+  line_freq: 60.0
+  montage: standard_1005
+  n_channels: 60
+  reference: FCz
+  sampling_rate: 250.0
+  sensors:
+  - Fp1
+  - AF7
+  - AF3
+  - AFz
+  - F7
+  - F5
+  - F3
+  - F1
+  - Fz
+  - FT7
+  - FC5
+  - FC3
+  - FC1
+  - T7
+  - C5
+  - C3
+  - C1
+  - Cz
+  - TP7
+  - CP5
+  - CP3
+  - CP1
+  - CPz
+  - P7
+  - P5
+  - P3
+  - P1
+  - Pz
+  - PO7
+  - PO3
+  - POz
+  - Fp2
+  - AF4
+  - AF8
+  - F2
+  - F4
+  - F6
+  - F8
+  - FC2
+  - FC4
+  - FC6
+  - FT8
+  - C2
+  - C4
+  - C6
+  - T8
+  - CP2
+  - CP4
+  - CP6
+  - TP8
+  - P2
+  - P4
+  - P6
+  - P8
+  - PO4
+  - PO8
+  - O1
+  - Oz
+  - O2
+  - Iz
+  software: BrainVision with MATLAB 2019a
+data_processed: true
+data_structure:
+  n_trials: 450
+  trials_context: 450 trials per subject (150 trials/session x 3 sessions, 50 per class). 15 subjects, 6750 trials total.
+documentation:
+  associated_paper_doi: 10.3389/fnhum.2022.898300
+  contact_info:
+  - bcicompetition2020@gmail.com
+  country: KR
+  data_url: https://osf.io/pq7vb/
+  description: 'BCI Competition 2020 Track 4: session-to-session motor imagery decoding of three grasping tasks (cylindrical,
+    spherical, lumbrical) from a single right arm. 15 subjects, 60 channels, 250 Hz, three sessions on separate days.'
+  doi: 10.3389/fnhum.2022.898300
+  institution: Korea University
+  investigators:
+  - Ji-Hoon Jeong
+  - Jeong-Hyun Cho
+  - Young-Eun Lee
+  - Seo-Hyun Lee
+  - Gi-Hwan Shin
+  - Young-Seok Kweon
+  - Jose del R. Millan
+  - Klaus-Robert Muller
+  - Seong-Whan Lee
+  keywords:
+  - motor imagery
+  - upper-limb
+  - grasping
+  - session-to-session transfer
+  - BCI competition
+  - EEG
+  license: CC-BY-4.0
+  publication_year: 2022
+  repository: OSF
+experiment:
+  class_labels:
+  - cylindrical
+  - spherical
+  - lumbrical
+  events:
+    cylindrical: 1
+    lumbrical: 3
+    spherical: 2
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual cue
+  study_design: Three-session cue-based motor imagery of three grasping tasks on a single right arm (cylindrical, spherical,
+    lumbrical). Each original trial is 10 s long (3 s rest, 3 s cue, 4 s motor imagery); this loader exposes only the 4 s
+    motor imagery window. Sessions are 7 days apart to pose a session-to-session transfer problem.
+  synchronicity: synchronous
+  trial_duration: 4.0
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - cylindrical
+  - spherical
+  - lumbrical
+participants:
+  age_max: 34
+  age_min: 20
+  health_status: healthy
+  n_subjects: 15
+  species: human
+preprocessing:
+  data_state: preprocessed
+  notch_hz: 60.0
+  preprocessing_applied: true
+  preprocessing_steps:
+  - 60 Hz notch filter
+  - cue-aligned epoching
+  - motor imagery window (6-10 s of each trial) extracted by loader
+runs_per_session: 1
+sessions_per_subject: 3
+tags:
+  modality:
+  - MotorImagery
+  pathology:
+  - Healthy
+  type:
+  - Research
+  - Competition
