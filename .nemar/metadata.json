@@ -1,0 +1,82 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Ji-Hoon Jeong": {},
+    "Jeong-Hyun Cho": {},
+    "Young-Eun Lee": {},
+    "Seo-Hyun Lee": {},
+    "Gi-Hwan Shin": {},
+    "Young-Seok Kweon": {},
+    "Jose del R. Millan": {},
+    "Klaus-Robert Muller": {},
+    "Seong-Whan Lee": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fnhum.2022.898300",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000233",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000233",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "BCIComp2020UpperLimb",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "833.1 MB (43 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "BCIComp2020UpperLimb is a preprocessed derivative EEG dataset from BCI Competition 2020 Track 4 comprising motor imagery recordings of three grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. The dataset contains 60-channel EEG data sampled at 250 Hz with 450 trials per subject (150 trials per session). This is a processed version of the original BCI Competition 2020 data, designed to evaluate session-to-session transfer learning in brain-computer interface applications. Original 10 s trials (3 s rest, 3 s visual cue, 4 s motor imagery) have been preprocessed with 60 Hz notch filtering and cue-aligned epoching, with the 4 s motor imagery window extracted for analysis.",
+  "methods_description": "EEG data were acquired using a BrainAmp system (BrainProducts GmbH) with 60 channels at 250 Hz sampling rate, referenced to FCz with Fpz as ground. Subjects performed cue-based motor imagery of three right-arm grasping tasks in three sessions separated by 7 days. Each trial consisted of a 3 s rest period, 3 s visual cue, and 4 s motor imagery window. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching. The 4 s motor imagery window (corresponding to seconds 6-10 of each original 10 s trial) was extracted by the loader for analysis.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "grasping"
+    },
+    {
+      "term": "upper limb"
+    },
+    {
+      "term": "session-to-session transfer"
+    },
+    {
+      "term": "BCI competition"
+    },
+    {
+      "term": "right-arm"
+    },
+    {
+      "term": "BrainAmp"
+    }
+  ],
+  "source_hash": "edf2aaa3f05aa42b7f0f60cd8fd9b718f8f7e842cda7082e64a7be7df2819e7a"
+}
