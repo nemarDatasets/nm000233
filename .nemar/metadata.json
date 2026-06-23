@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BCI Competition 2020 Track 4 — Upper-limb grasping motor imagery",
-  "description": "This dataset comprises EEG recordings from 15 healthy participants performing motor imagery of three upper-limb grasping tasks (cylindrical, spherical, and lumbrical) across three sessions separated by one week. Recorded at 250 Hz from 60 channels using a standard 10-05 montage, the dataset contains 6,750 trials total and was designed to evaluate session-to-session transfer learning in brain-computer interface applications. This is a derivative dataset created from the BCI Competition 2020 Track 4 data, preprocessed with a 60 Hz notch filter and epoched to extract the motor imagery window.",
-  "methods_description": "EEG data were acquired at 250 Hz from 60 channels using a BrainAmp amplifier (BrainProducts GmbH) with a standard 10-05 montage, referenced to FCz with ground at Fpz. Participants performed cue-based motor imagery of three grasping tasks in response to visual cues. Each trial consisted of a 3-second rest period, 3-second visual cue, and 4-second motor imagery window. Data were preprocessed with a 60 Hz notch filter and epoched to extract the motor imagery window.",
+  "description": "BCIComp2020UpperLimb is a preprocessed EEG dataset from BCI Competition 2020 Track 4 containing motor imagery recordings of three upper-limb grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. The dataset comprises 60-channel EEG data sampled at 250 Hz with 450 trials per subject (150 trials per session × 3 sessions), designed to evaluate session-to-session transfer learning in brain-computer interface applications. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching, with the 4-second motor imagery window extracted for analysis.",
+  "methods_description": "EEG data were acquired using a BrainAmp system (BrainProducts GmbH) with 60 channels at 250 Hz sampling rate, referenced to FCz with Fpz as ground. Subjects performed cue-based motor imagery of three right-arm grasping tasks in three sessions separated by 7 days. Each trial consisted of a 3 s rest period, 3 s visual cue, and 4 s motor imagery window. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,10 +25,15 @@
       "term": "EEG"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "upper-limb grasping"
+    },
+    {
+      "term": "transfer learning"
     },
     {
       "term": "session-to-session transfer"
@@ -37,10 +42,13 @@
       "term": "BCI competition"
     },
     {
-      "term": "preprocessed"
+      "term": "cylindrical grasp"
     },
     {
-      "term": "transfer learning"
+      "term": "spherical grasp"
+    },
+    {
+      "term": "lumbrical grasp"
     }
   ],
   "related_identifiers": [
@@ -76,5 +84,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "7f562a5a3aeb60270ce4e12e67f9996f0837541d4d2782847970feaf865173c3"
+  "source_hash": "7c8f0578d22670acf75e931dfa1ebbb3ea328074beb45851738e73f348f1bbac"
 }
