@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000233-blue)](https://doi.org/10.82901/nemar.nm000233)
+
 # BCI Competition 2020 Track 4 — Upper-limb grasping motor imagery
 
 ## Overview
