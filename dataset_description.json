@@ -27,7 +27,7 @@
     "BCI competition",
     "EEG"
   ],
-  "DatasetDOI": "doi:10.3389/fnhum.2022.898300",
+  "DatasetDOI": "10.82901/nemar.nm000233",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -40,6 +40,9 @@
     {
       "DOI": "10.3389/fnhum.2022.898300",
       "URL": "https://osf.io/pq7vb/"
+    },
+    {
+      "DOI": "doi:10.3389/fnhum.2022.898300"
     }
   ],
   "PublicationYear": 2022,
