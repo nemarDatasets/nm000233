@@ -1,0 +1,90 @@
+{
+ "dataset": "nm000233",
+ "moabb_class": "BCIComp2020UpperLimb",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "moabb.datasets.BCIComp2020UpperLimb.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-bcicomp2020upperlimb-data/download",
+ "license": "CC-BY-4.0",
+ "doi": "10.3389/fnhum.2022.898300",
+ "naming": "upstream_filenames_restored",
+ "n_files": 15,
+ "total_bytes": 2134104509,
+ "files": [
+  {
+   "file": "2wu68",
+   "bytes": 137517805,
+   "sha256": "eab3bbff8ca6044604be8b8af5319ca2644f460a709d5a06e78dc9f13e3d2e5a"
+  },
+  {
+   "file": "9n8zv",
+   "bytes": 155926555,
+   "sha256": "1d536b2b562a97650d83e09bfadf73b60a9e6e9f778eca163712dc1844be0f79"
+  },
+  {
+   "file": "9sy8r",
+   "bytes": 146953337,
+   "sha256": "67d3e0642b30ffeff889130a1acfefb52d7de60c12e718409abe3ad15064fe23"
+  },
+  {
+   "file": "atnwe",
+   "bytes": 143592586,
+   "sha256": "af06ec8a05b8bde6be2efa35d815da63e4cb5676148c8dd1bdf8903403b5cb9d"
+  },
+  {
+   "file": "d4js3",
+   "bytes": 143865004,
+   "sha256": "d16f77a516271a66496cf4aa42e902dd2088fea448f1e0c5008507b26c4579e5"
+  },
+  {
+   "file": "dwx36",
+   "bytes": 139729677,
+   "sha256": "3e911855703f81a70149fc05744e190b0bf45cdec521ec694f1aee2d16387ad2"
+  },
+  {
+   "file": "f6c5a",
+   "bytes": 136121424,
+   "sha256": "626e61b09ad343d3727e733ace09e7fd692f3dc7f13e92f5f74e685e761a98f1"
+  },
+  {
+   "file": "h6nv7",
+   "bytes": 132403529,
+   "sha256": "dd8f4c2902bd858b845d83619e4824d196a70487deb9f70c5da4506cb7f5696d"
+  },
+  {
+   "file": "h6ry4",
+   "bytes": 122016554,
+   "sha256": "7ede0b9182d38118b26c938979cf95d9d63ac9d108129553d72c73d71a6cd6eb"
+  },
+  {
+   "file": "hjx5z",
+   "bytes": 149091995,
+   "sha256": "5faf32494769833883303a817b4933d75e7454ac1c477da2adb6163510d92166"
+  },
+  {
+   "file": "n52yz",
+   "bytes": 140002478,
+   "sha256": "76f5950e880d071b1a9bbb369ca71096fd5d53bfa670509c1e8d344f98361ae1"
+  },
+  {
+   "file": "tv9rs",
+   "bytes": 133792116,
+   "sha256": "4b5aef3ea26b61ac1b1de693456b117cb002e597a67df62e3e273e0f6b903faa"
+  },
+  {
+   "file": "whpdu",
+   "bytes": 145968728,
+   "sha256": "ca0b64c3cd90298088de90606aa6c13db4875761dedcc364259a9e878acde2a7"
+  },
+  {
+   "file": "xz6ju",
+   "bytes": 152862680,
+   "sha256": "acb4d614a8ac2dbc0b8d1ce21e3d96e2f008368e273f9313c7022fbd842c25ed"
+  },
+  {
+   "file": "yzmut",
+   "bytes": 154260041,
+   "sha256": "7a067901307af90e88fb04f5b5f186c0384e653183652449ea2ad08f38c9867f"
+  }
+ ]
+}
