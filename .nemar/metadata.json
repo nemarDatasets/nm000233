@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BCI Competition 2020 Track 4 — Upper-limb grasping motor imagery",
-  "description": "BCIComp2020UpperLimb is a preprocessed EEG dataset from BCI Competition 2020 Track 4 containing motor imagery recordings of three upper-limb grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. The dataset comprises 60-channel EEG data sampled at 250 Hz with 450 trials per subject, designed to evaluate session-to-session transfer learning in brain-computer interface applications. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching, with the 4-second motor imagery window extracted for analysis.",
+  "description": "BCIComp2020UpperLimb is a preprocessed EEG derivative dataset from BCI Competition 2020 Track 4 containing motor imagery recordings of three upper-limb grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. The dataset comprises 60-channel EEG data sampled at 250 Hz with 450 trials per subject, designed to evaluate session-to-session transfer learning in brain-computer interface applications. Data were preprocessed using the MOABB pipeline with 60 Hz notch filtering and cue-aligned epoching, with the 4-second motor imagery window extracted for analysis.",
   "methods_description": "EEG data were acquired using a BrainAmp system (BrainProducts GmbH) with 60 channels at 250 Hz sampling rate, referenced to FCz with Fpz as ground. Subjects performed cue-based motor imagery of three right-arm grasping tasks in three sessions separated by 7 days. Each trial consisted of a 3 s rest period, 3 s visual cue, and 4 s motor imagery window. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
@@ -40,15 +40,6 @@
     },
     {
       "term": "BCI competition"
-    },
-    {
-      "term": "cylindrical grasp"
-    },
-    {
-      "term": "spherical grasp"
-    },
-    {
-      "term": "lumbrical grasp"
     }
   ],
   "related_identifiers": [
@@ -84,5 +75,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "fe50517c34262b42875e5a8e087fe3f8253684c0e0420c6ff91d97eef1ffa4b9"
+  "source_hash": "fd8dc4c5bfe28ecec2503966f6fad1794c2bb12991b44747daf116d62cdf5767"
 }
