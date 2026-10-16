@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.3389/fnhum.2022.898300",
  "naming": "upstream_filenames_restored",
- "n_files": 15,
- "total_bytes": 2134104509,
+ "n_files": 45,
+ "total_bytes": 5810715744,
  "files": [
   {
    "file": "2wu68",
@@ -100,7 +100,256 @@
    "bytes": 154260041,
    "sha256": "7a067901307af90e88fb04f5b5f186c0384e653183652449ea2ad08f38c9867f",
    "subject": "1"
+  },
+  {
+   "file": "amnzq",
+   "bytes": 149554774,
+   "sha256": "839c5aef031fc0d804e1cffdd7ff262f32b77d9e2235cd03769963a60191484b",
+   "subject": "1",
+   "url": "https://osf.io/download/amnzq/",
+   "how": "OSF project pq7vb file amnzq: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample01.mat"
+  },
+  {
+   "file": "g947y",
+   "bytes": 144533292,
+   "sha256": "100b1e341bc649184622100b34ce8f8472e77160bfe6138d96f7849c4e3905df",
+   "subject": "2",
+   "url": "https://osf.io/download/g947y/",
+   "how": "OSF project pq7vb file g947y: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample02.mat"
+  },
+  {
+   "file": "rhme9",
+   "bytes": 125825287,
+   "sha256": "cbaece06e3cb3d36d6f9f4500b22d206a11736c978969a2ec27e68d12fc6445e",
+   "subject": "3",
+   "url": "https://osf.io/download/rhme9/",
+   "how": "OSF project pq7vb file rhme9: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample03.mat"
+  },
+  {
+   "file": "sz4p3",
+   "bytes": 141888298,
+   "sha256": "7b421c1bb0037bc86d877596e09d559c3e0ddb30f4b69f611132442de796fe32",
+   "subject": "4",
+   "url": "https://osf.io/download/sz4p3/",
+   "how": "OSF project pq7vb file sz4p3: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample04.mat"
+  },
+  {
+   "file": "qv9c2",
+   "bytes": 118830700,
+   "sha256": "9ba489d3bd224687555c964e267b0105b81c68b1b07f0221e9e00761df7d427b",
+   "subject": "5",
+   "url": "https://osf.io/download/qv9c2/",
+   "how": "OSF project pq7vb file qv9c2: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample05.mat"
+  },
+  {
+   "file": "p4am3",
+   "bytes": 134211737,
+   "sha256": "72ac515da5935bc42465292a716fb267653b055e49616f16294971d6f3c362e8",
+   "subject": "6",
+   "url": "https://osf.io/download/p4am3/",
+   "how": "OSF project pq7vb file p4am3: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample06.mat"
+  },
+  {
+   "file": "49byt",
+   "bytes": 130988779,
+   "sha256": "95aaf3d22dc1e0eeb699cc7f2c2dee7abb9f9ab5310945f79675cfe9a774b80a",
+   "subject": "7",
+   "url": "https://osf.io/download/49byt/",
+   "how": "OSF project pq7vb file 49byt: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample07.mat"
+  },
+  {
+   "file": "b4x8q",
+   "bytes": 151149672,
+   "sha256": "a2354e4c956927a7cf3dab4481ad894497b70ad61a079df0d68cb1255aec5ef5",
+   "subject": "8",
+   "url": "https://osf.io/download/b4x8q/",
+   "how": "OSF project pq7vb file b4x8q: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample08.mat"
+  },
+  {
+   "file": "cpfm6",
+   "bytes": 138088265,
+   "sha256": "2e5e2735bf53aaad179c34052f3e1916f30b96512ac367b8d00057fed4610f7f",
+   "subject": "9",
+   "url": "https://osf.io/download/cpfm6/",
+   "how": "OSF project pq7vb file cpfm6: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample09.mat"
+  },
+  {
+   "file": "wjpdy",
+   "bytes": 141225168,
+   "sha256": "e3f2a90260ae7ca7236b0899da402573c8143f3c95ec92bf1f0a3c075282e310",
+   "subject": "10",
+   "url": "https://osf.io/download/wjpdy/",
+   "how": "OSF project pq7vb file wjpdy: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample10.mat"
+  },
+  {
+   "file": "6vrph",
+   "bytes": 135980167,
+   "sha256": "d5401a139ca95ff45fca1fe01e9615cc5c7041856c62af72c30fa6943f988a79",
+   "subject": "11",
+   "url": "https://osf.io/download/6vrph/",
+   "how": "OSF project pq7vb file 6vrph: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample11.mat"
+  },
+  {
+   "file": "mq9sx",
+   "bytes": 140066593,
+   "sha256": "3757719ed57587ba0afad0e6964d5081b808e4f9634517a839cbc5d3bd9f5f82",
+   "subject": "12",
+   "url": "https://osf.io/download/mq9sx/",
+   "how": "OSF project pq7vb file mq9sx: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample12.mat"
+  },
+  {
+   "file": "67rnu",
+   "bytes": 140003738,
+   "sha256": "d0f1fb6640a26620295b0bb8e230a3417c244c137cee2270f5d6f5a41f2e7db8",
+   "subject": "13",
+   "url": "https://osf.io/download/67rnu/",
+   "how": "OSF project pq7vb file 67rnu: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample13.mat"
+  },
+  {
+   "file": "dkpf8",
+   "bytes": 149661561,
+   "sha256": "f26c51fa5d27328cf8acfa85c3d2b8a54e5c94ff875b8658b2778548682f61b0",
+   "subject": "14",
+   "url": "https://osf.io/download/dkpf8/",
+   "how": "OSF project pq7vb file dkpf8: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample14.mat"
+  },
+  {
+   "file": "bq53w",
+   "bytes": 154633158,
+   "sha256": "d87e9736866e1ee634362909f931e2a08526fa274d83d968b2a7494e8b35b108",
+   "subject": "15",
+   "url": "https://osf.io/download/bq53w/",
+   "how": "OSF project pq7vb file bq53w: /Track#4 Upper-limb movements decoding in a single-arm/Validation set/sample15.mat"
+  },
+  {
+   "file": "72vy5",
+   "bytes": 107717938,
+   "sha256": "ee28dd045834a7c8cd95580cd8e7e0592cdf3e673029c8c7ed334ae661d144ee",
+   "subject": "1",
+   "url": "https://osf.io/download/72vy5/",
+   "how": "OSF project pq7vb file 72vy5: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample01.mat"
+  },
+  {
+   "file": "u6epr",
+   "bytes": 106341730,
+   "sha256": "4499d2f996eadeb70af555dbfc4a51072444c76469ad22332e1d6e2742bce970",
+   "subject": "2",
+   "url": "https://osf.io/download/u6epr/",
+   "how": "OSF project pq7vb file u6epr: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample02.mat"
+  },
+  {
+   "file": "kbfqn",
+   "bytes": 100417573,
+   "sha256": "7a4d97a3e2cc292a9c053befc71803cc6d10b452a7cb502302f4fade1d90cf01",
+   "subject": "3",
+   "url": "https://osf.io/download/kbfqn/",
+   "how": "OSF project pq7vb file kbfqn: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample03.mat"
+  },
+  {
+   "file": "kqre9",
+   "bytes": 102814589,
+   "sha256": "c6831aeabc9af2355369dd7c0109a8558db9262dfe74c24660ad3d4010644f2b",
+   "subject": "4",
+   "url": "https://osf.io/download/kqre9/",
+   "how": "OSF project pq7vb file kqre9: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample04.mat"
+  },
+  {
+   "file": "mduc6",
+   "bytes": 105829261,
+   "sha256": "872dd9a67ac9f452d9bf6aa65e5d366952ab4bdcc6786a3c6a90dd871bacf3fb",
+   "subject": "5",
+   "url": "https://osf.io/download/mduc6/",
+   "how": "OSF project pq7vb file mduc6: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample05.mat"
+  },
+  {
+   "file": "rctjz",
+   "bytes": 98543728,
+   "sha256": "d22b72c99353fd68c954a0825c01097dad84f1c235cabbe3e482cba23a206366",
+   "subject": "6",
+   "url": "https://osf.io/download/rctjz/",
+   "how": "OSF project pq7vb file rctjz: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample06.mat"
+  },
+  {
+   "file": "emcqh",
+   "bytes": 99171474,
+   "sha256": "e3a106c93ebd127a83370cce5167f61a3414703b8adad3c39188bbc136a1ac0e",
+   "subject": "7",
+   "url": "https://osf.io/download/emcqh/",
+   "how": "OSF project pq7vb file emcqh: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample07.mat"
+  },
+  {
+   "file": "tpeqj",
+   "bytes": 111086335,
+   "sha256": "08a82a612bbfb0cc26ac1089ab12a2a5b4b6c1707898b58939b68640ac404aa6",
+   "subject": "8",
+   "url": "https://osf.io/download/tpeqj/",
+   "how": "OSF project pq7vb file tpeqj: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample08.mat"
+  },
+  {
+   "file": "tnezm",
+   "bytes": 111177895,
+   "sha256": "3b7492ee62ac7fedad6545301240bd89b88cec8040124be253862e8d65bbf866",
+   "subject": "9",
+   "url": "https://osf.io/download/tnezm/",
+   "how": "OSF project pq7vb file tnezm: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample09.mat"
+  },
+  {
+   "file": "ud6g8",
+   "bytes": 99722878,
+   "sha256": "a5e2b206e3b2fed0c2dabbf4412ee3c45c5491f1b90f34f56a3179d89a3a0816",
+   "subject": "10",
+   "url": "https://osf.io/download/ud6g8/",
+   "how": "OSF project pq7vb file ud6g8: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample10.mat"
+  },
+  {
+   "file": "vhy7x",
+   "bytes": 107408432,
+   "sha256": "db940b8d14c8380a2c2a0f3be49fd8e85dc4f726de4c289fafa6bb85c42486ed",
+   "subject": "11",
+   "url": "https://osf.io/download/vhy7x/",
+   "how": "OSF project pq7vb file vhy7x: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample11.mat"
+  },
+  {
+   "file": "eznc8",
+   "bytes": 107552772,
+   "sha256": "b7e28bb9f098694d8d34648e88141407f0a72c17bee245c76de0e4d3dacdf652",
+   "subject": "12",
+   "url": "https://osf.io/download/eznc8/",
+   "how": "OSF project pq7vb file eznc8: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample12.mat"
+  },
+  {
+   "file": "mtsxu",
+   "bytes": 101287835,
+   "sha256": "e2619e0e3e14858045bc4f494b4d158b7312aabcc11f61fc2204f2d33fbfbae7",
+   "subject": "13",
+   "url": "https://osf.io/download/mtsxu/",
+   "how": "OSF project pq7vb file mtsxu: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample13.mat"
+  },
+  {
+   "file": "56qb2",
+   "bytes": 108396150,
+   "sha256": "a6a29ef7e31e013007e3426ff98f261b4184fcf0fdeb6922890ba17bbcf435ca",
+   "subject": "14",
+   "url": "https://osf.io/download/56qb2/",
+   "how": "OSF project pq7vb file 56qb2: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample14.mat"
+  },
+  {
+   "file": "mqycb",
+   "bytes": 112501456,
+   "sha256": "49dffd5731ac6fb0c281d41786c69df8c08f1d4c56e41f6d4eaa7d6644baf84d",
+   "subject": "15",
+   "url": "https://osf.io/download/mqycb/",
+   "how": "OSF project pq7vb file mqycb: /Track#4 Upper-limb movements decoding in a single-arm/Test set (new)/sample15.mat"
   }
  ],
- "n_subjects_recorded": 15
+ "n_subjects_recorded": 15,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.4",
+   "added_files": 30,
+   "added_bytes": 3676611235,
+   "note": "Added the validation and test files (OSF project pq7vb, 'Validation set' and 'Test set (new)' of Track #4 (upper-limb movement decoding in a single arm)) that moabb.datasets.BCIComp2020UpperLimb reads for sessions 1 and 2; the original snapshot held only the training file per subject. Stored under the OSF file id, the name the loader caches https://osf.io/download/<id>/ as. Size, MD5 and SHA-256 checked against the OSF API (attributes.extra.hashes)."
+  }
+ ]
 }
