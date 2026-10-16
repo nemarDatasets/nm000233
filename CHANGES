@@ -1,0 +1,6 @@
+1.0.4 2026-10-16
+  - sourcedata: added the validation and test files of all 15 subjects (30 files, 3,676,611,235 bytes)
+    from OSF project pq7vb (2020 International BCI Competition, Track #4 (upper-limb movement decoding in a single arm)), stored under their
+    OSF file ids like the existing training files. The loader (moabb.datasets.BCIComp2020UpperLimb) reads all
+    three splits; size, MD5 and SHA-256 checked against the OSF API. No existing file changed; the
+    BIDS tree is unchanged.
