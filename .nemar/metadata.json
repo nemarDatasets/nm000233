@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BCI Competition 2020 Track 4 — Upper-limb grasping motor imagery",
-  "description": "A preprocessed derivative EEG dataset from BCI Competition 2020 Track 4, containing motor imagery recordings of three right-arm grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. It provides 60-channel EEG at 250 Hz with 450 trials per subject, and is intended for evaluating session-to-session transfer learning in brain-computer interfaces. Data were notch filtered and epoched to the 4 s motor imagery window, and re-hosted in BIDS format via MOABB.",
-  "methods_description": "EEG was acquired with a BrainAmp system (BrainProducts) using 60 channels at 250 Hz, referenced to FCz with Fpz as ground. Subjects performed cue-based motor imagery of three grasping tasks in three sessions separated by 7 days. Each 10 s trial comprised 3 s rest, 3 s visual cue and 4 s motor imagery. Data were preprocessed with a 60 Hz notch filter and cue-aligned epoching, and the 4 s motor imagery window was extracted.",
+  "description": "A preprocessed derivative EEG dataset from BCI Competition 2020 Track 4, containing motor imagery recordings of three right-arm grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy participants across three sessions. It provides 60-channel EEG sampled at 250 Hz with 450 trials per subject, and is designed for evaluating session-to-session transfer learning in brain-computer interfaces. The data were re-formatted to BIDS via MOABB and hosted on NEMAR.",
+  "methods_description": "EEG was recorded with a BrainAmp system (60 channels, 250 Hz, referenced to FCz, ground Fpz) while subjects performed cue-based motor imagery of three grasping tasks in three sessions separated by 7 days. Each 10 s trial comprised 3 s rest, 3 s visual cue, and 4 s motor imagery. Data were notch filtered at 60 Hz and cue-aligned epoched, and the 4 s motor imagery window was extracted.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,13 +28,13 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "upper-limb grasping"
+      "term": "grasping"
     },
     {
       "term": "session-to-session transfer"
     },
     {
-      "term": "BCI competition"
+      "term": "upper limb"
     }
   ],
   "related_identifiers": [
@@ -60,7 +60,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.76 GB (58 files)"
+    "6.19 GB (88 files)"
   ],
   "formats": [
     ".edf",
@@ -70,5 +70,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "fd8dc4c5bfe28ecec2503966f6fad1794c2bb12991b44747daf116d62cdf5767"
+  "source_hash": "e7d37dcae294d28056fdcdb60da57c9d0f84b5b73152e12b8c0289bd51223c14"
 }
